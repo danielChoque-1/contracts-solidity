@@ -1,0 +1,80 @@
+{
+	"compiler": {
+		"version": "0.8.1+commit.df193b15"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_account",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_accountSC",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "data_owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "_owner",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_smartContractFather",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/7_fabric_smartContracts.sol": "children"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/7_fabric_smartContracts.sol": {
+			"keccak256": "0xf141f1e485f05bd146bcc5874c5fe9d63e30723b9bc5b48be4ea5fbc9defb791",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3b09ad3e8e6c8774cb0e93d449caaba8edf4ecba71ace2f67ded85452429f4c1",
+				"dweb:/ipfs/QmQnCxWoNyWHtopv5YXNCPpi1BTc1MaaJm5fM5JJ8fMJtA"
+			]
+		}
+	},
+	"version": 1
+}

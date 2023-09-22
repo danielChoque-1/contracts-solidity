@@ -1,0 +1,101 @@
+{
+	"compiler": {
+		"version": "0.8.1+commit.df193b15"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_ingredients",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_uints",
+						"type": "uint256"
+					}
+				],
+				"name": "doHamburger",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_number",
+						"type": "uint256"
+					}
+				],
+				"name": "hashPrivateNumber",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/6_advanced_functions.sol": "Hamburger"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/6_advanced_functions.sol": {
+			"keccak256": "0xe4fc890390c6ea6104c6aa1c35b368341ffd4f1296328e98d99fd029ce6404df",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5a430479e11f42439a438315fffb6f4613568aa01b7e035a04e9859f1496768c",
+				"dweb:/ipfs/QmQmmmTD6MoY4uCHXH1BdDd6U1BH85sFBYKCb4yEr8MXYq"
+			]
+		}
+	},
+	"version": 1
+}
